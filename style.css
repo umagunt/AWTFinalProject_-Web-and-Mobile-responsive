@@ -1,0 +1,181 @@
+html body {
+    margin:0;
+    padding:0;
+
+}
+
+
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: aqua;
+    color:black;
+    padding: 0.5em;
+   
+}
+
+header nav ul li {
+    display: inline;
+    margin: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  1.1em;
+    color: green;
+
+}
+
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color:#b8860b;
+}
+nav1 {
+    position: absolute; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 10px;
+    background-color: aqua;
+    font-size: larger;
+   
+}
+
+main section {
+    
+    width: 25%;
+    height: 400px;
+    border: blueviolet solid 0px;
+     border-radius: 1em;
+     margin: 1.5em;
+    display: inline-block;
+    
+
+}
+
+body {
+    width: 100%;
+    background-size: cover;
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+   
+    height: 100%;
+}
+
+
+#floatleft {
+    margin: 0px;
+    float: left;
+    background-color: aqua;
+   
+    
+}
+ 
+.box {
+    width:20%;
+    height: 550px;
+    margin: 1.5em;
+    display: inline-block;
+    vertical-align: center;
+    border: 5px solid #555;
+    border-radius: 0.5em;
+   
+    
+}
+
+main{
+    text-align: center;
+}
+
+
+tl {
+    font-size: 1.7em;
+    color:#b8860b;
+
+}
+.box form input, .box form textarea{
+    width: 250px;
+    font-size: 1.3em;
+    border:rgb(13,67, 13) solid 1px;
+    border-radius: 0.3em;
+   
+}
+
+box.form p{
+    margin: 0.5em;
+}
+
+.box form #addbtn{
+    width:100px;
+}
+p {
+    vertical-align:top;
+    text-align: center;
+}
+p1 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+p2 {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 200;
+  
+   
+}
+
+@media only screen and (max-width: 600px) {
+    main section {
+        width: 90%;
+        margin: 0.5em;
+    }
+    header nav ul li {
+        display: block;
+        margin: 0.5em;
+    }
+    .box {
+        width:80%;
+    }
+    p1 {
+        font-size: 16;
+    }
+}
+p3 {
+    margin-bottom: 15px;
+    line-height: 21px;
+    text-align: justify;
+    font: 14px 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 1.5em;
+    padding :0.5em;
+    line-height: 1.5em;
+}
+#response {
+    color:red;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    
+    background-color:aqua;
+    color:black;
+}
+h1 {
+    font-size: 35px;
+}
